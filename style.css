@@ -1,0 +1,42 @@
+/* Last Rule */
+/* p{
+    color: red;
+}
+p{
+    color: blue;
+} */
+
+
+/* SPECIFICITY */
+/* *{
+    color: red;
+}
+p{
+    color: green;
+}
+p#intro{
+    color: rgb(111, 71, 255);
+} */
+
+
+/* IMPORTANT */
+/* *{
+    color: red !important;
+}
+p{
+    color: green;
+}
+p{
+    color: blue;
+} */
+
+
+/* INHERITANCE */
+
+div{
+    color: blue;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: inherit;
+}
